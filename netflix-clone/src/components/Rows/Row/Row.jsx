@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import "./row.css";
 import axios from "../../../utils/axios.jsx";
 import movieTrailer from "movie-trailer";
+// import movieTrailer from "movie-trailer/index.js";
+
 import YouTube from "react-youtube";
 
 const Row = ({ title, fetchUrl, isLargeRow }) => {
