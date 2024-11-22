@@ -3,10 +3,7 @@ import react from "@vitejs/plugin-react";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base:'/Netflix-Clone/',
   plugins: [react()],
-  resolve: {
-    alias: {
-      "movie-trailer": "/node_modules/movie-trailer/index.js",
-    },
-  },
+
 });
